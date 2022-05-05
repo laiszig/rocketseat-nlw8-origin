@@ -89,8 +89,8 @@ section header h1 {
 
 section .content p {
   font-weight: 400;
-  font-size: 1.6rem;  
-  line-height: 150%;  
+  font-size: 1.6rem;
+  line-height: 150%;
 
   color: var(--paragraph);
 }
@@ -131,7 +131,6 @@ nav button {
   cursor: pointer;
 }
 
-
 /*====== MENU-EXPANDED ======*/
 body.menu-expanded {
   overflow: hidden;
@@ -171,7 +170,6 @@ body.menu-expanded .menu {
 
   transition: transform 300ms;
   transform: translateY(0);
-  
 }
 
 .menu ul:nth-child(1) {
@@ -229,8 +227,6 @@ body.menu-expanded .logo path {
 body.menu-expanded button path {
   stroke: white;
 }
-
-
 
 /*====== #HOME ======*/
 #home {
