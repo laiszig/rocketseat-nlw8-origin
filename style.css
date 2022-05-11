@@ -157,7 +157,7 @@ body.menu-expanded #navigation .logo path,
   stroke: white;
 }
 
-/*=== NAVIGATION =================================*/
+/*====== NAVIGATION ======*/
 nav {
   display: flex;
 
@@ -191,7 +191,7 @@ nav .close-menu {
   position: fixed;
 }
 
-/*=== MENU-EXPANDED =================================*/
+/*====== MENU-EXPANDED ======*/
 body.menu-expanded {
   overflow: hidden;
 }
@@ -287,7 +287,7 @@ body.menu-expanded button path {
   stroke: white;
 }
 
-/*=== #HOME =================================*/
+/*====== #HOME ======*/
 #home {
   padding-block: 0;
   padding-top: calc(4.1rem + var(--nav-height));
@@ -356,7 +356,7 @@ body.menu-expanded button path {
   line-height: 150%;
 }
 
-/*=== SERVICES =================================*/
+/*====== SERVICES ======*/
 #services header h2 {
   margin-bottom: 6rem;
 }
@@ -381,7 +381,7 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-/*=== ABOUT =================================*/
+/*====== ABOUT ======*/
 #about {
   text-align: left;
   background-color: var(--brand-beige);
@@ -396,7 +396,7 @@ body.menu-expanded button path {
   margin-bottom: 6rem;
 }
 
-/*=== CONTACT =================================*/
+/*====== CONTACT ======*/
 #contact {
   text-align: left;
 }
@@ -419,7 +419,7 @@ body.menu-expanded button path {
   gap: 0.8rem;
 }
 
-/*=== FOOTER =================================*/
+/*====== FOOTER ======*/
 footer {
   background-color: var(--primary-color);
   padding-block: 6rem;
@@ -454,7 +454,7 @@ footer .social-links {
   justify-content: flex-start;
 }
 
-/* BACK TO TOP */
+/* BACK TO THE TOP */
 #backToTopButton {
   position: fixed;
   bottom: 1rem;
@@ -473,9 +473,9 @@ footer .social-links {
   transform: translateY(0);
 }
 
-/*=== RESPONSIVO =================================*/
+/*====== RESPONSIVO ======*/
 @media (min-width: 1024px) {
-  /*=== GERAL =================================*/
+  /*====== GERAL ======*/
   body {
     overflow: auto;
   }
@@ -502,7 +502,7 @@ footer .social-links {
     line-height: 5.2rem;
   }
 
-  /*=== NAVIGATION =================================*/
+  /*====== NAVIGATION ======*/
   /* reset */
   nav#navigation .wrapper * {
     margin: 0;
@@ -623,7 +623,7 @@ footer .social-links {
     border: none;
   }
 
-  /*=== HOME =================================*/
+  /*====== HOME ======*/
   #home::before {
     height: calc(96% - var(--nav-height));
   }
@@ -676,7 +676,7 @@ footer .social-links {
     width: 42rem;
   }
 
-  /*=== SERVICES =================================*/
+  /*====== SERVICES ======*/
   #services h2 {
     width: 47rem;
     margin-inline: auto;
@@ -693,7 +693,7 @@ footer .social-links {
     flex-grow: 1;
   }
 
-  /*=== ABOUT =================================*/
+  /*====== ABOUT ======*/
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
     grid-template-areas: 'B A';
@@ -708,7 +708,7 @@ footer .social-links {
     margin-bottom: 0;
   }
 
-  /*=== CONTACT =================================*/
+  /*====== ABOUT ======*/
 
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
@@ -719,7 +719,7 @@ footer .social-links {
     width: 40.4rem;
   }
 
-  /*=== FOOTER =================================*/
+  /*====== FOOTER ======*/
   footer {
     padding-block: 8rem;
   }
